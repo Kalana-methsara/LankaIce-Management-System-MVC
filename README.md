@@ -21,13 +21,13 @@ Developed as the **1st Semester Final Project** for the Graduate Diploma in Soft
 - **Language:** Java (JDK 11+)
 - **UI Framework:** JavaFX (with Scene Builder)
 - **Database:** MySQL
-- **Architecture Pattern:** Strict Layered Architecture (Controller, Service, Repository patterns)
+- **Architecture Pattern:** Model-View-Controller (MVC Architecture)
 - **Reporting Engine:** Jasper Reports
 - **Build Tools / Libraries:** MySQL Connector, FontAwesome/Icons, Biometric API SDKs
 
 ### 🏗️ Architecture Overview
-The system follows a strict separation of concerns to ensure scalability and high maintainability:
-`UI (JavaFX) ➡️ Controller Layer ➡️ Service (Business Logic) Layer ➡️ Repository (Data Access) Layer ➡️ MySQL Database`
+The system follows the classic MVC pattern to decouple user interfaces from underlying data models and business logic:
+`View (JavaFX FXML) ↔️ Controller ↔️ Model (Data & Database Layer)`
 
 ---
 
@@ -43,4 +43,4 @@ The system follows a strict separation of concerns to ensure scalability and hig
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/Kalana-methsara/LankaIce-ERP.git](https://github.com/Kalana-methsara/LankaIce-ERP.git)
+   git clone [https://github.com/Kalana-methsara/LankaIce-ERP-MVC.git](https://github.com/Kalana-methsara/LankaIce-ERP-MVC.git)
